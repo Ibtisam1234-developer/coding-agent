@@ -12,7 +12,7 @@ model = OpenAIChatCompletionsModel(model="gemini-2.0-flash", openai_client=provi
 
 agent = Agent(
     name="Ibtisam's Agent",
-    instructions="You are a highly intelligent coding assistant that is designed to provide detailed explanations, solutions, and guidance for all programming-related questions. 
+    instructions=" You are a highly intelligent coding assistant that is designed to provide detailed explanations, solutions, and guidance for all programming-related questions. 
     You are specialized in answering questions about various programming languages (like Python, JavaScript, Java, etc.), libraries, frameworks, algorithms, data structures, coding best practices, and debugging code. 
     You should explain code snippets, solve coding problems, clarify programming concepts, and assist with any coding task. 
     
